@@ -1,0 +1,28 @@
+{
+  "name": "agentic_cucumber_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayanGanguli/Agentic_Cucumber_Framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayanGanguli/Agentic_Cucumber_Framework/issues"
+  },
+  "homepage": "https://github.com/SayanGanguli/Agentic_Cucumber_Framework#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/mcp": "^0.0.81",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
