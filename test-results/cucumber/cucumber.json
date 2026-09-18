@@ -1,0 +1,223 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm-login;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1993888500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3017419800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the OrangeHRM login page",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 57553399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1162592100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I submit the login form",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95164500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the OrangeHRM dashboard",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:25"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 416693999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should see the Dashboard heading",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7722099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the authenticated side navigation",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:33"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 850599700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login;login-fails-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login fails with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 476575399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3232785199
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the OrangeHRM login page",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 71570700
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter username \"invalid-user\" and password \"invalid-password\"",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 145649299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I submit the login form",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 727941799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should remain on the OrangeHRM login page",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:37"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 349261999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should see an \"Invalid credentials\" alert",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:41"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 40369399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the login form should remain available",
+            "match": {
+              "location": "step_definitions\\001_login.steps.ts:45"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 411198799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM login",
+    "tags": [],
+    "uri": "features\\001_login.feature"
+  }
+]

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js --profile default",
+    "test:dry-run": "cucumber-js --profile default --dry-run --format summary"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,10 @@
   "devDependencies": {
     "@cucumber/cucumber": "^13.2.1",
     "@playwright/mcp": "^0.0.81",
-    "@playwright/test": "^1.63.0",
+    "@playwright/test": "^1.62.0",
     "@types/node": "^26.6.1",
     "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
   }
 }
